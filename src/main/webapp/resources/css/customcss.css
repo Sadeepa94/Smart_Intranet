@@ -1,0 +1,372 @@
+
+body {
+
+  margin: 0px;
+  padding: 0px;
+  min-height:100%;
+  
+}
+
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+	border:0px;
+	border-bottom: 7px solid #195e86 ;
+	font-weight:bold;
+	  
+    }
+	
+.nav.navbar-nav.navbar-right li a{
+    color: black;
+}
+
+.nav.navbar-nav.navbar-right li a:hover{
+    color:white;
+}
+
+.nav.navbar-nav li a{
+    color: black;
+}
+
+.nav.navbar-nav.navbar li a:hover{
+    color:white;
+}
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {
+		height:560px;
+}
+   
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color:#2e353d;
+	   border-bottom: 10px solid #e4662b; 
+      color: white;
+      padding: 15px;
+    }
+    
+    
+	
+	.navbar-nav .active a{
+    background-color: #195e86 !important;
+	}
+	
+	
+	
+.navbar ul li { 
+border-left: 2px solid #195e86 ; }
+
+
+/* Side Navigation */
+
+
+.side-nav {	
+		position:absolute;
+		padding:0px;
+		border: none;
+		font-size: 13px;
+		font-weight:bold;
+		border-radius: 0;
+		background-color: #999999;
+		outline: none;
+		background: linear-gradient( #999999,#f2f2f2,white);
+		overflow: auto;
+		padding-bottom: 40px;
+		height:100%;
+    }
+	
+.side-nav li{
+	width:100%;
+}
+
+.side-nav>li>a {
+	border-left: 5px solid transparent;
+	width:100%;
+	 
+    }
+
+    .side-nav li a:hover{
+        border-left: 5px solid #d19b3d;
+        background-color: #999999 !important;
+		color:white;
+    }
+	
+	.side-nav li a:focus{
+        outline: none;
+		 border-left: 5px solid #d19b3d;
+        background-color: #999999 !important;
+		color:white;
+    }
+
+
+.side-nav>li>ul {
+    padding: 0;
+    
+}
+
+.side-nav>li>ul>li>a {
+    display: block;
+    padding: 5px 5px 5px 40px;
+	
+    text-decoration: none;
+    color:black;    
+}
+
+.side-nav>li>ul>li>a:hover {
+    color:white;
+	 border-left: 5px solid #195e86;
+}
+
+
+@media (max-width: 767px) {
+  .nav-side-menu {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+
+}
+@media (min-width: 767px) {
+  .nav-side-menu .menu-list .menu-content {
+    display: block;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .navbar-toggle1 {
+    display:none;
+  }
+}
+
+
+.navbar-toggle1 .icon-bar1 + .icon-bar1 {
+  margin-top: 4px;
+}
+
+.navbar-inverse .navbar-toggle1 .icon-bar1 {
+  background-color: #fff;
+}
+
+
+
+.quetionnotification{
+	float:right;
+	background-color:#ff9900;
+	text-align: center;
+	color:black;
+	width:30px;
+	border-radius: 2px;
+	font-weight:normal;
+	font-size: 15px;
+	
+	
+	
+}
+
+
+
+
+
+.questiontableclient{
+	float:right;
+	font-size:small;
+}
+
+.questiondiv{
+	
+    border:0px;
+	border-top: 1px solid #cccccc ;
+	padding:10px;
+
+}
+
+.questiontabletc{
+	float:left;
+	padding-left:0px;
+	font-size:small;
+}
+
+.questiondivmain{
+	
+    border:0px;
+	border-bottom:5px solid #cccccc ;
+	
+
+}
+
+
+.companyreply{
+	float:right;
+	background-color:#f2f2f2;
+	margin:5px;
+	padding:10px;
+	
+}
+
+.clientreply{
+	float:left;
+	background-color:#f2e6ff;
+	margin:5px;
+	padding:10px;
+}
+
+.questiontopic{
+	
+    border:0px;
+	border-bottom:1px solid #cccccc ;
+	
+	
+
+}
+
+
+.questiondescription{
+	
+    border:0px;
+	border-bottom:1px solid #cccccc ;
+	margin:10px;
+	padding:10px;
+	
+	
+
+}
+
+.questionout{
+	padding:0px;
+	margin:0px;
+}
+
+.formq{
+	background-color:#f2f2f2;
+	padding:15px;
+	margin-top:10px;
+}
+
+
+
+.modal-content  {
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important; 
+}
+
+.attachment{
+	float:left;
+	font-size:small;
+	
+}
+
+.replydetails{
+	float:center;
+	background-color:yellow;
+	font-size:x-small;
+}
+
+.attachmentinput{
+	border:0px;
+	
+}
+
+.profile-logo img{
+	
+	width: 150px;
+    height: auto;
+}
+
+.profile{
+	
+	padding:25px;
+	margin:25px;
+	background-color:#f2f2f2;
+	
+}
+
+
+.dashboardbtn{
+	width:auto;
+	background-color:orange;
+	margin:20px;
+	height:30px;
+	border:0px;
+	color:white;
+}
+
+
+.tclist{
+	overflow-y:scroll;
+	height:400px;
+	background-color:#f2f2f2;
+	padding:10px;
+	float:right;
+	margin:10px;
+	
+	
+}
+
+.tslistli{
+	height:25px;
+	cursor: pointer; 
+	cursor: hand;
+}
+
+
+.tsview{
+	
+	background-color:#f2f2f2;
+	padding:10px;
+	
+	margin:10px;
+	margin-top:20px;
+	
+	
+}
+
+.error{
+	
+	color:red;
+}
+
+
+.userlist{
+	overflow-y:scroll;
+	height:150px;
+	float:right;
+	
+	
+	
+}
+
+.chatpicture {
+    width: 25px;
+    min-height: 25px;
+    max-height: auto;
+    margin: 3px;
+    padding: 3px;
+}
+
+
+.empchatlist{
+	cursor: pointer; 
+	cursor: hand;
+	margin-bottom:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

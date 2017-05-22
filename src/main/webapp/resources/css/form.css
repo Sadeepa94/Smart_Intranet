@@ -1,0 +1,171 @@
+.bcolor{
+
+	margin:10px;
+	padding:15px;
+		opacity: 1;
+		color:black;
+		padding-left:60px;
+		display:none;
+}
+
+table{
+	width:100%;
+}
+
+
+
+input{
+	border:1px solid #cccccc;
+	margin-right:10px;
+	margin-bottom:5px;
+	
+	
+}
+
+.forminput
+{
+	width:85%;
+	height:25px;
+}
+
+
+select{
+	border:1px solid #cccccc;
+	width:85%;
+	height:25px;
+	margin-right:10px;
+	margin-bottom:5px;
+	outline:0px;
+	
+}
+
+option{
+	
+	margin-right:10px;
+	margin-bottom:5px;
+	
+}
+
+td{
+	width:50%;
+}
+
+textarea{
+		border:1px solid #cccccc;
+}
+
+
+
+.btnA{
+	width:75px;
+	height:30px;
+	background-color:#195e86;
+	border:0px;
+	color:white;
+}
+
+.btnB{
+	width:75px;
+	height:30px;
+	background-color:orange;
+	border:0px;
+	color:black;
+}
+
+.btnAs{
+	width:40px;
+	height:25px;
+	background-color:#195e86;
+	border:0px;
+	color:black;
+}
+
+.btnN{
+	background-color:white;
+	border:none;
+}
+
+.btnBs{
+	width:40px;
+	height:25px;
+	background-color:orange;
+	border:0px;
+	color:black;
+}
+
+
+.form{
+	background-color:#f2f2f2;
+	align:center;
+	margin:25px;
+	width:70%;
+	padding:30px;
+}
+
+.forml{
+	background-color:#f2f2f2;
+	//align:center;
+	//margin:40px;
+	
+	padding:40px;
+}
+
+
+
+.formA{
+	background-color:#f2f2f2;
+	margin:10px;
+	padding:10px;
+}
+
+
+
+.formB{
+	background-color:#f2f2f2;
+	margin:10px;
+	width:400px;
+	
+	padding:10px;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color:black;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btnqsubmit{
+	width:auto;
+	height:40px;
+	background-color:orange;
+	border:0px;
+	color:white;
+}
+
+.btnsubmit{
+	width:auto;
+	height:auto;
+	background-color:orange;
+	border:0px;
+	color:white;
+}
+
+#myInput{
+	width:80%;
+	height:40px;
+}
+
+.filtered_url{
+	font-weight: bold;
+	
+}
+.filtered_url:hover{
+	text-decoration:none;
+	
+}
+
