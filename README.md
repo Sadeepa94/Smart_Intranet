@@ -2,34 +2,36 @@
 Level 2 industry based project. this consist helpdesk system and leave management system.
 
 
-****-----requirments-----****
-*apache tomcat server v8.0
-*mysql databese
-*used IDE eclipse Neon
+-----requirments-----
+
+apache tomcat server v8.0
+mysql database
+used IDE eclipse Neon
 
 
 
-*****----configurations----****
+----configurations----
 
-**database configuration
+database configuration
 go to src>>webapp>>WEB-INF>>app>>applicationontext.xml
 
-next find the dataSource bean and give your database username and password
+next find the dataSource bean and give the database username and password
 <property name="username" value="username"></property>
 <property name="password" value="password"></property>
 
 then create database as project_test
 
 
-**email configuration
+email configuration
 go to src>>webapp>>WEB-INF>>app>>applicationontext.xml
 
-next find the mailSender bean and give your email address and password
+next find the mailSender bean and give the email address and password
 
 <property name="username" value="youremail"/>
 <property name="password" value="password"/>
 
-****----defaultuser-----****
+----defaultuser-----
+
 username: admin
 password: 1111
 
